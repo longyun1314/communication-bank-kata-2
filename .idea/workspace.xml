@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13fa7df4-b544-4e98-9d43-31477f1cc1a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unit/test/practice/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unit/test/practice/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unit/test/practice/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unit/test/practice/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unit/test/practice/UserServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/luck.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/luck.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,12 +54,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="unit.test.practice" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="unit.test.setup" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="unit.test.practice" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -71,13 +91,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ExampleTest.junit_assertion_should_work" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserServiceShould">
+    <configuration name="UserServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;unit.test.setup.ExampleTest.junit_assertion_should_work&quot;" />
+        <option name="scriptParameters" value="--tests &quot;unit.test.practice.UserServiceShould&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -92,6 +112,42 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UserServiceShould.have_half_discount_when_user_old_than_60" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;unit.test.setup.UserServiceShould.have_half_discount_when_user_old_than_60&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceShould.have_half_discount_when_user_old_than_60" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="communication-bank-kata-2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.test.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.test.practice" />
+      <option name="MAIN_CLASS_NAME" value="unit.test.practice.UserServiceShould" />
+      <option name="METHOD_NAME" value="have_half_discount_when_user_old_than_60" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/communication-bank-kata-2/build/reports/tests/test/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -100,9 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserServiceShould" />
+        <item itemvalue="Gradle.UserServiceShould.have_half_discount_when_user_old_than_60" />
+        <item itemvalue="JUnit.UserServiceShould.have_half_discount_when_user_old_than_60" />
+        <item itemvalue="Gradle.UserServiceShould" />
         <item itemvalue="JavaScript Debug.luck.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Gradle.ExampleTest.junit_assertion_should_work" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +194,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
