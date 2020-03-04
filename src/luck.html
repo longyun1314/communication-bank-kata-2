@@ -1,0 +1,49 @@
+<html>
+<meta charset="UTF-8">
+<body>
+<div>
+    <button onclick="choose()" style="font-size: xx-large">随机选择</button>
+    <button onclick="reset()" style="font-size: xx-large">重置</button>
+    <h1 id="message"></h1>
+</div>
+</body>
+<script>
+
+  function showMessage(message) {
+    document.getElementById("message").innerHTML = message;
+  }
+
+  function reset() {
+    showMessage("");
+  }
+
+  function choose() {
+    const numberOfStudent = 15;
+    const randomIndex = Math.floor(Math.random() * numberOfStudent);
+    const allPeople =
+      [
+        "夏东芝",
+        "余晓明",
+        "林传舜",
+        "李巧云",
+        "郑晓峰",
+        "张汇东",
+        "易张",
+        "徐鹏进",
+        "吴声宏",
+        "王巳立",
+        "王恺",
+        "林志明",
+        "顾幸男",
+        "邓白石",
+        "陈润贤",
+      ];
+
+    const luckyPerson = allPeople[randomIndex];
+    let message = "我们有请 ：" + luckyPerson + " 老师";
+
+    showMessage(message);
+  }
+
+</script>
+</html>
